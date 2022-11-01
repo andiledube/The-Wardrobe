@@ -1,0 +1,237 @@
+.main{
+  width: 1519px;
+  height: 720px;
+  background-color: #FA7070;
+}
+
+body{
+  margin: 0;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+header{
+  background-color: #111;
+}
+
+.logo{
+  height: 50px;
+  align-items: center;
+  margin: 0;
+}
+
+.size1{
+  padding: 0;
+}
+
+.size{
+  height: 20px;
+  padding: 16px 16px 0 0;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+li a:active {
+  background-color: #04AA6D;
+}
+
+.show-container{
+  display: flex;
+  justify-content: center;
+}
+
+.Text{
+  text-align: center;
+}
+
+.work-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  background-image: url("../images/ladieswear/background.png");
+  padding: 0;
+}
+
+.imgsize{
+  width: 506.400px;
+  height: 444px;
+}
+
+
+/* Text on hover */
+
+.container {
+  position: relative;
+  width: 100%;
+  padding: 0px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.4;
+}
+
+.container:hover .middle {
+  opacity: 100;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.copy{
+  text-align: center;
+}
+
+/* fonts */
+
+h1{
+  font-family: Verdana, serif;
+  font-size: 35px;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+h2{
+  font-family: Arial, serif;
+  font-size: 24px;
+}
+
+h3{
+  font-family: Arial, serif;
+  font-size: 24px;
+}
+h4{
+  font-family: Arial, serif;
+  font-size: 24px;
+}
+h5{
+  font-family: Arial, serif;
+  font-size: 24px;
+}
+h6{
+  font-family: Arial, serif;
+  font-size: 24px;
+}
+p{
+  font-family: Arial, serif;
+  font-size: 14px;
+}
+
+
+.class {
+	font-family: Arial,Myriald Pro,Verdana,serif;
+}
+
+.row{
+  justify-content: space-between;
+}
+
+.quote{
+  text-align: center;
+  margin: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.color1{
+  background-color: #E14D2A;
+  border-radius: 5px 5px 0 0;
+}
+
+.color2{
+  background-color: #9C2C77;
+  border-radius: 5px 5px 0 0;
+}
+
+.color3{
+  background-color: #E14D2A;
+  border-radius: 5px 5px 0 0;
+}
+
+.card{
+  padding: 0;
+}
+
+
+.bold{
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.row g-0{
+  justify-content: center;
+}
+
+.scroller {
+  width: 600px;
+  height: 350px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+}
+
+.link1{
+  justify-content: space-around;
+  margin: 0;
+  display: flex;
+}
+
+.links{
+  text-align: center;
+  height: 50px;
+}
